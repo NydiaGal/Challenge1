@@ -211,14 +211,16 @@ p {
     display: block;
   }
   
-.display-inline {
-    display: inline;
-  }
-
 #absolute-box {
     position: absolute;
     top: 922px;
     right: 20px;
   }
+
+.inline-list li {
+        display: inline-block;
+        margin-left: 25px
+
+}
   
 
