@@ -1,16 +1,16 @@
-/* Universal formatting the applied to the entire site */
+/* Universal formatting applied to the website */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* Tag formatting for the site's background color */
+/* Tag formatting for the website's background color */
 body {
     background-color: #d9dcd6;
 }
 
-/* Size of padding, the fonts applicable to the site depending on the computre, the color of the header space is blue and the font color is white */
+/* Class tag to designate the size of padding, the fonts applicable to the site depending on the computre, the color of the header space is blue and the font color is white */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,11 +18,14 @@ body {
     color: #ffffff;
 }
 
+
+/* Class tag formatting the H1 header and font size */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Class tag formatting applied to the website */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -52,15 +55,18 @@ body {
     margin-left: 25px;
 }
 
+/* Tag selector for font color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Tag selector for size of font within paragraphs */
 p {
     font-size: 16px;
 }
 
+/* Class selector for image below header to include size and layout */
 .hero {
     height: 800px;
     width: 100%;
@@ -70,11 +76,13 @@ p {
     background-position: center;
 }
 
+/* Class selector for alignment of pictures in body */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Class selector for alignment of pictures in body */
 .float-right {
     float: right;
     margin-left: 25px;
