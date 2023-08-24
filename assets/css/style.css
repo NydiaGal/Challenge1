@@ -25,11 +25,12 @@ body {
     font-size: 48px;
 }
 
-/* Class tag formatting applied to the website */
+/* Class tag formatting the color for the class linked to the SEO lettering */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Class tag for header & div content & formatting the header to the right, font size and spacing around the header*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,6 +39,7 @@ body {
     font-size: 20px;
 }
 
+/* Class tag for header & nav & formatting the header and font size */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,27 +48,29 @@ body {
     font-size: 20px;
 }
 
+/* Class tag formatting the header, div and ul classheader and remove bullets or numbering on the listed items*/
 .header div ul {
     list-style-type: none;
 }
 
+/* Class tag formatting designating the div, ul li elements will behave as inline but allow for formatting like a block element with margins*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* Tag selector for font color */
+/* Tag selector for anchor elements to a white font color and excluding universal page formatting*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* Tag selector for size of font within paragraphs */
+/* Tag selector for anchor elements for the size of font*/
 p {
     font-size: 16px;
 }
 
-/* Class selector for image below header to include size and layout */
+/* Class selector for Hero image below header to include size, image link and layout */
 .hero {
     height: 800px;
     width: 100%;
@@ -76,83 +80,99 @@ p {
     background-position: center;
 }
 
-/* Class selector for alignment of pictures in body */
+/* Class selector for float left to align left with a margin right.*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* Class selector for alignment of pictures in body */
+/* Class selector for float right to the right with a margin left*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Class tag formatting */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Class tag formatting */
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
+    margin-top: -28px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    height: 100%;
+    padding: 25px;
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    height: 175%;
+    line-height: 75%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
+/* Class tag for benefit lead formatting color and marging bottom */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Class tag formatting benefit brand color and margin bottom*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Class tag formatting benefit cost color and margin bottom*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Class tag formatting benefit lead and header 3 alignment to center and margin*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Class tag formatting benefit brand and header 3 alignment to center and margin*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Class tag formatting benefit cost and header 3 alignment to center and margin*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Class tag formatting benefit lead and img to treat as block formatting, max width and top bottom margins and an auto left and right margins with a max of 150px*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Class tag benefit brand and img formatting treat as block formatting, max width and top bottom margins and an auto left and right margins with a max of 150px*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Class tag benefit cost and img formatting treat as block formatting, max width and top bottom margins and an auto left and right margins with a max of 150px*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Class tag for search-engine-optimization bottom margin, padding, height, font, backgroundcolor and font color */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -162,6 +182,7 @@ p {
     color: #ffffff;
 }
 
+/* Class tag for online-reputation-management bottom margin, padding, height, font, backgroundcolor and font color */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -171,6 +192,7 @@ p {
     color: #ffffff;
 }
 
+/* Class tag for social-media-marketing bottom margin, padding, height, font, backgroundcolor and font color */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -180,33 +202,40 @@ p {
     color: #ffffff;
 }
 
+/* Class tag for search-engine-optimization image max height 200px*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* Class tag for online-reputation-management image max height 200px */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* Class tag for social-media-marketing image max height 200px */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* Class tag for search-engine-optimization header 2 font size and bottom margin px */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Class tag for online-reputation-management header 2 font size and margin */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Class tag for social-media-marketing header 2 font and bottom margin size */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Class tag for the footer padding, font, center alignment and ensuring the element is positioned below the layout. */
 .footer {
     padding: 30px;
     clear: both;
@@ -214,20 +243,24 @@ p {
     text-align: center;
 }
 
+/* Class tag for the footer header 2 font size */
 .footer h2 {
     font-size: 20px;
 }
 
+/* Class tag for the display block using display block formatting*/
 .display-block {
     display: block;
   }
   
+ /* ID tag for the absolute box formatting and utilization of absolute formating and image spacing*/
 #absolute-box {
     position: absolute;
-    top: 922px;
+    top: 950px;
     right: 20px;
   }
 
+ /* Class tag for the inline-list and formatting inline */
 .inline-list li{
         display: inline;
 }
